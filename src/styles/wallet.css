@@ -1,0 +1,23 @@
+.wallet .wallet-form input {
+  display: block;
+}
+
+.wallet .wallet-form select {
+  display: block;
+}
+
+.wallet .wallet-form label {
+  text-align: center;
+}
+
+.wallet .wallet-form {
+  animation: appear 0.4s ease;
+}
+
+@keyframes appear {
+
+  0% { opacity: 0%; }
+
+  100% { opacity: 100%; }
+
+}

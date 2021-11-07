@@ -1,0 +1,12 @@
+.header {
+  animation: appear 0.4s ease;
+}
+
+
+@keyframes appear {
+
+  0% { opacity: 0%; }
+
+  100% { opacity: 100%; }
+
+}
