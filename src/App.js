@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <main className="w-screen h-screen">
         <Switch>
-          <Route exact path="/" component={ Login } />
+          <Route exact path="/trybewallet" component={ Login } />
           <Route path="/carteira" component={ Wallet } />
         </Switch>
       </main>

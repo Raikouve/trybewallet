@@ -13,7 +13,7 @@ export default class Header extends Component {
         from-blue-500 to-blue-600 px-4 py-4 text-gray-50 items-center header"
       >
         <div className="w-1/6 h/full">
-          <Link to="/">
+          <Link to="/trybewallet">
             <img src={ logo } alt="toninvest" />
           </Link>
         </div>
